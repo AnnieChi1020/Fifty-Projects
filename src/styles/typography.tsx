@@ -1,0 +1,29 @@
+import styled from "styled-components";
+
+export const H1 = styled.h1`
+  font-size: 64px;
+  line-height: 84px;
+  font-style: normal;
+  font-weight: bold;
+`;
+
+export const H2 = styled.h2`
+  font-size: 32px;
+  line-height: 48px;
+  font-style: normal;
+  font-weight: bold;
+`;
+
+export const H3 = styled.h3`
+  font-size: 24px;
+  line-height: 36px;
+  font-style: normal;
+  font-weight: normal;
+`;
+
+export const H4 = styled.h4`
+  font-size: 16px;
+  line-height: 21px;
+  font-style: normal;
+  font-weight: normal;
+`;

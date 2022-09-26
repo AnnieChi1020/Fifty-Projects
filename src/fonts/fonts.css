@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@font-face {
+  font-family: 'Goldman-Sans';
+  src: url('./GoldmanSans/font_for_websites_WOFF2/GoldmanSans_W_Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Goldman-Sans';
+  src: url('./GoldmanSans/font_for_websites_WOFF2/GoldmanSans_W_Bd.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Goldman-Sans';
+  src: url('./GoldmanSans/font_for_websites_WOFF2/GoldmanSans_W_It.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Goldman-Sans';
+  src: url('./GoldmanSans/font_for_websites_WOFF2/GoldmanSans_W_BdIt.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
