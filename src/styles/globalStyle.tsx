@@ -80,12 +80,6 @@ const GlobalStyle = createGlobalStyle`
 body {
   font-family: Open Sans, Goldman-Sans, Helvetica Neue, Helvetica, Roboto, PingFang TC, 微軟雅黑, Microsoft Yahei, sans-serif;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0px;
 }
 * {
   ${"" /* outline: 1px solid #f00 !important; */}
