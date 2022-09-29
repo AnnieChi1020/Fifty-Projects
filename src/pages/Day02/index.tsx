@@ -4,7 +4,7 @@ import Colors from "../../styles/Colors";
 
 const steps = [1, 2, 3, 4];
 
-const Day02: React.FC = () => {
+const Day03: React.FC = () => {
   const [currStep, setCurrStep] = useState<number>(1);
 
   const handleOnClickPrev = () => {
@@ -40,7 +40,7 @@ const Day02: React.FC = () => {
   );
 };
 
-export default Day02;
+export default Day03;
 
 const Container = styled.div`
   width: 100vw;
