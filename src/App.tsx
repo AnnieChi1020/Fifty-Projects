@@ -8,6 +8,7 @@ import Day01 from "./pages/Day01";
 import Day02 from "./pages/Day02";
 import Day03 from "./pages/Day03";
 import Day04 from "./pages/Day04";
+import Day05 from "./pages/Day05";
 
 const App = () => (
   <Container>
@@ -15,10 +16,11 @@ const App = () => (
     <GlobalStyle />
     <BrowserRouter>
       <Routes>
-        <Route path="/day-01" element={<Day01 />} />
-        <Route path="/day-02" element={<Day02 />} />
-        <Route path="/day-03" element={<Day03 />} />
-        <Route path="/day-04" element={<Day04 />} />
+        <Route path="/day01" element={<Day01 />} />
+        <Route path="/day02" element={<Day02 />} />
+        <Route path="/day03" element={<Day03 />} />
+        <Route path="/day04" element={<Day04 />} />
+        <Route path="/day05" element={<Day05 />} />
       </Routes>
     </BrowserRouter>
   </Container>
