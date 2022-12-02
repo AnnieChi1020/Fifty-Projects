@@ -10,6 +10,7 @@ import Day03 from "./pages/Day03";
 import Day04 from "./pages/Day04";
 import Day05 from "./pages/Day05";
 import Day06 from "./pages/Day06";
+import Day07 from "./pages/Day07";
 
 const App = () => (
   <Container>
@@ -23,6 +24,7 @@ const App = () => (
         <Route path="/day04" element={<Day04 />} />
         <Route path="/day05" element={<Day05 />} />
         <Route path="/day06" element={<Day06 />} />
+        <Route path="/day07" element={<Day07 />} />
       </Routes>
     </BrowserRouter>
   </Container>
